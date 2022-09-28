@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string>
 
 void memset(char* arr, char val, int count)
 {
