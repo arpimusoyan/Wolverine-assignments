@@ -14,11 +14,6 @@ void memcpy(char* arr, char* arr1, int count)
     arr1[i] = arr[i];
   }
   arr1[count] = '\0';
-  for (int i = 0; i < count; ++i)
-  {
-    std::cout << arr[i];
-  }
-
 }
 int main()
 {  
