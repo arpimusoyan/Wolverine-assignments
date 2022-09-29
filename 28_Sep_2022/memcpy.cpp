@@ -20,5 +20,5 @@ int main()
   const int count = 6;
   char src[] = "hello";
   char dest[count];
-  memcpy(src,dest,count);
+  memcpy(arr,arr1,count);
 }
