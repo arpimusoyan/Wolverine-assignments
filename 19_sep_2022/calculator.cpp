@@ -33,7 +33,7 @@ float num2;
 std::cout << "Enter the numbers: " << std::endl;
 std::cin >> num1 >> num2;
 char sym;
-std::cout << "Enter one of hese symbols +,-,/,* " << std::endl;
+std::cout << "Enter one of these symbols +,-,/,* " << std::endl;
 std::cin >> sym;
 std::map <char, float(*)(float,float)> cal;
 cal['+'] = Calculator::add;
