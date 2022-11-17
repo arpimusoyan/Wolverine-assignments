@@ -3,7 +3,7 @@
 
 std::string ltrim(std::string str)
 {
-	int count = 0;
+  int count = 0;
   for(int i = 0; i < str.size(); i++)
   {
    if(str[i] == ' ')
@@ -19,7 +19,7 @@ return str;
 }
 int main()
 {
- std::string str = "    hello" ;
+    std::string str = "    hello" ;
     std::cout << ltrim(str) << std::endl;
-    return 0;
+    
 }
